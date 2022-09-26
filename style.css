@@ -1,0 +1,49 @@
+body{
+background-color: yellowgreen;
+border: 10px solid rgb(255, 255, 0);
+}
+.word{
+    padding: 10px 10px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.btn{
+    
+    height: 150px;
+    width: 600px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.btn:hover{
+    background-color: yellow;
+    transition-duration: 1s;
+}
+.form{
+    background-color: orange;
+    width: 320px;
+    height: 135px;
+}
+.form:hover{
+    background-color: red;
+    transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition: initial 1s;
+}
+.worde{
+font-size: 120px;
+font-family:monospace;
+text-decoration-color: yellow;
+color: green;
+}
+.list{
+color: green;
+font-size: 40px;
+}
+.b{
+    color: darkgreen;
+}
+body:hover{
+    transition-duration: 10s;
+    background-color: yellow;
+}
